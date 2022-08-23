@@ -28,7 +28,7 @@ public class Controller {
 	
 	
 	@PostMapping(
-			value = "/data/put",
+			value = "/data/save",
 			headers = "Accept=application/json",
 			consumes = "application/json",
 			produces = "application/json")
